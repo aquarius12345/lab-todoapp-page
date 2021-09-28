@@ -1,0 +1,29 @@
+.login-form {
+    background-color: whitesmoke;
+    width: 500px;
+    margin: 150px auto;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.login-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form h1 {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    color: rgb(194, 81, 194)
+}
+
+.login-form input {
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.login-form button {
+    width: 100px;
+    margin-top: 20px;
+    font-size: 1rem;
+}

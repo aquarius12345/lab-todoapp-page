@@ -27,7 +27,7 @@ input:focus {
 
 button {
     width: 5vw;
-    height: 5.4vh;
+    height: 5.1vh;
     background-color: rgb(202, 92, 202);
     color: whitesmoke;
     border-style: none;
@@ -54,9 +54,16 @@ li {
     align-items: center;
 }
 
-#btn {
+/* li #delete-icon {
     background-color: tomato;
-    padding: 10.1px;
+    float: left;
+    width: 10%;
+    height: 50%;
+    padding: 10px;
+} */
+
+#delete-icon {
+    margin: 0px 10px;
 }
 
 .check {
@@ -71,4 +78,18 @@ form {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+    margin-top: 20px;
+    color: white;
+}
+
+nav a {
+    margin-left: 15px;
+    color: white;
+    text-decoration: none;
 }
